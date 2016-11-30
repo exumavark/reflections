@@ -1,0 +1,33 @@
+GIT COMMANDS
+------------
+
+git add game.js   [specifies that game.js should be added to the list of files to be committed]
+
+git commit   [commits the current staging area to the repository]
+
+git commit -m "These are the changes I made"   [commits the current staging area to the repository with the message "These are the changes I made"]
+
+git status   [displays the current status]
+
+git branch   [displays the current branch/es and the active branch]
+
+git diff   [compares the workspace to the staging area]
+git diff --staged   [compares the staging area to the current commit]
+
+git log   [displays the log of commits for the current branch]
+
+git log --graph --oneline   [nicer display of the log of commits and branches]
+
+git checkout my-branch   [checks out my-branch as the active branch]
+
+git merge master coins   [merges the master branch and the coins branch]
+
+git checkout master   [returns to the most recent commit on the master branch - the way to get out of detached head state]
+
+git remote   [Displays the name of the remote on GitHub]
+
+git remote --v   [Displays the GitHub endpoints for the remote]
+
+git push origin master   [Pushes an update of the master branch to the GitHub origin]
+
+git pull origin master   [Pulls an update to the master branch from the origin on GitHub]

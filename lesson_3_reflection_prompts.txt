@@ -18,12 +18,12 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It can be handy if you are going to work offline for a while.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would use TFS.  It would be easier because it is so neatly integrated into Visual Studio.  It would be a bit harder to work offline and be able to revert and compare changes.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

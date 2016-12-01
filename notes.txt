@@ -31,3 +31,7 @@ git remote --v   [Displays the GitHub endpoints for the remote]
 git push origin master   [Pushes an update of the master branch to the GitHub origin]
 
 git pull origin master   [Pulls an update to the master branch from the origin on GitHub]
+
+git pull origin master   [Same as 'git fetch origin' followed by 'git merge master origin/master']
+
+git fetch origin   [Same as git pull origin origin/master ?I think?]

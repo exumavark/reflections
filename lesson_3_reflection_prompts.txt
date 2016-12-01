@@ -28,4 +28,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you are implementing features which you might want to abandon if it is not working as expected.  The benefit of working on the master is that there is less git kind of admin.  The benefit of working on branches is that you can have many collaborators work on the project without affecting the master branch.

@@ -1,6 +1,8 @@
 GIT COMMANDS
 ------------
 
+git clone https://github.com/exumavark/iSpy   [Clones the repository at https://github.com/exumavark/iSpy into a local folder called iSpy]
+
 git add game.js   [specifies that game.js should be added to the list of files to be committed]
 
 git commit   [commits the current staging area to the repository]

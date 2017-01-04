@@ -26,6 +26,8 @@ git merge master coins   [merges the master branch and the coins branch]
 
 git checkout master   [returns to the most recent commit on the master branch - the way to get out of detached head state]
 
+git remote add origin {remote repository URL}   [Sets the new remote]
+
 git remote   [Displays the name of the remote on GitHub]
 
 git remote --v   [Displays the GitHub endpoints for the remote]
